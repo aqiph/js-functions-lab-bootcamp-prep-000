@@ -34,4 +34,5 @@ console.log(i)
 for (var j = 0; j < 3; j++) {
   // and now let's run each one to see
   funcs[j]();
+  console.log(i)
 }
