@@ -21,7 +21,7 @@ function holidayCountdown(holiday, days){
 
 var funcs = [];
 // let's create 3 functions
-for (var i = 0; i < 3; i++) {
+for (let i = 0; i < 3; i++) {
   // and store them in funcs
   //console.log(i)
   funcs[i] = function() {
