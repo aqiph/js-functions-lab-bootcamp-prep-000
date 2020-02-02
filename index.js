@@ -17,3 +17,21 @@ function happyHolidayTo(holiday, name){
 function holidayCountdown(holiday, days){
   return `It's ${days} days until ${holiday}!`
 }
+
+
+var funcs = [];
+// let's create 3 functions
+for (let i = 0; i < 3; i++) {
+  // and store them in funcs
+  console.log(i)
+  funcs[i] = function() {
+    // each should log its value.
+//    console.log(i)
+    console.log("My value: " + i);
+  };
+}
+for (var j = 0; j < 3; j++) {
+  // and now let's run each one to see
+  console.log(i)
+  funcs[j]();
+}
