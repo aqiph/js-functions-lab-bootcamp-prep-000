@@ -30,7 +30,7 @@ for (let i = 0; i < 3; i++) {
     console.log("My value: " + i);
   };
 }
-console.log(i)
+//console.log(i)
 for (var j = 0; j < 3; j++) {
   // and now let's run each one to see
   funcs[j]();
