@@ -26,7 +26,6 @@ for (let i = 0; i < 3; i++) {
   console.log(i)
   funcs[i] = function() {
     // each should log its value.
-//    console.log(i)
     console.log("My value: " + i);
   };
 }
